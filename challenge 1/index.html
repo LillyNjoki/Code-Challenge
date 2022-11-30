@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student-grade-generator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+     <!-- Grade calculator input form -->
+    <div class="center">
+    <h1>Grading Calculator</h1>
+    <div class="input">
+
+            <label>Enter Grades
+            <input id="marks" type="number" class="inline"  max="100" min="0">
+        </label>
+            <button id="submit-button" onclick="handleClick(event)">calculate grade</button>
+
+    </div>
+    <div id="result">E</div>
+</div>
+
+
+    <!-- linking javascript to html -->
+    <script src="./index.js"></script>
+</body>
+</html>

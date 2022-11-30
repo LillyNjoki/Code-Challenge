@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>salary-calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+        <label for="">Basic Salary</label>
+        <input oninput="handleSalary(event)" id="basic-salary" min="0" type="number">
+
+        <label for="">Allowances</label>
+        <input oninput="handleSalary(event)" class="allowances" min="0" type="number">
+
+        <label for="">Allowances</label>
+        <input oninput="handleSalary(event)" class="allowances" min="0" type="number">
+
+        <label for="">Allowances</label>
+        <input oninput="handleSalary(event)" class="allowances" min="0" type="number">
+
+        <label for="">Allowances</label>
+        <input oninput="handleSalary(event)" class="allowances" min="0" type="number">
+
+    </div>
+<label class="border">NHIF
+    <div id="nhif"></div>
+</label>
+
+<label class="border">NSSF
+    <div id="nssf"></div>
+</label>
+
+<label class="border">PAYE
+    <div id="paye"></div>
+</label>
+
+<label class="border">Net Salary
+    <div id="net-salary"></div>
+</label>
+
+
+   <script src="./index.js"></script>
+</body>
+</html>
